@@ -1,0 +1,47 @@
+#+TITLE: todo
+* DONE Usunąć persp-mode
+* DONE Usunąć C-z
+* DONE Zmniejszyć czcionki w org-mode
+albo w zmienić czcionki na mniej obłe
+* DONE wyświetlanie kolorów w logach elixira
+* DONE Projectile keybindings
+* DONE skakanie po buforach alt-n
+* DONE helm swoop
+helm-projectile-ag
+https://github.com/ShingoFukuyama/helm-swoop
+* DONE switch windows
+* DONE Install pragmata
+* DONE Install smartparens
+* DONE Format elisp code
+* DONE Display kill ring
+http://pragmaticemacs.com/emacs/counsel-yank-pop-with-a-tweak/
+* DONE `C-c s`
+* DONE Run in full screen
+* DONE Remove clipboard-yank binding
+* TODO Elisp editing
+tooltips
+* DONE Eternal buffer list
+* TODO Fix smartparens in elixir
+/home/xd/Dev/doom-emacs/modules/lang/elixir/config.el
+* CANCELLED regexp builder
+M-x re-builder
+* TODO Yasnippet
+** Copy them from prelude
+** Fix shortcuts
+* CANCELLED Dired+
+wdired C-x C-q
+* DONE Not disappearing buffers
+Docs: set-popup-rule!
+
+*Alchemist-IEx*
+* DONE Line wrap
+Fundamental mode
+elixir logs
+* CANCELLED user-error: Not in a valid workspace (nil)
+* DONE Eternal buffer list
+* CANCELLED C-x b remove cursive from filenames
+* TODO Mail in Emacs
+notmuch vs mu4e
+* TODO Text scale adjust
+* TODO delete-selection-mode does not work
+* DONE Push config to the repo
