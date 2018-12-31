@@ -9,6 +9,7 @@
 (packages!
   ag
   elixir-yasnippets
+  lsp-mode
   persistent-scratch
   super-save
   window-numbering)
