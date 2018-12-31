@@ -3,6 +3,8 @@
 ;; Fix keybindings
 (global-set-key (kbd "M-v") 'scroll-down-command)
 (global-set-key (kbd "C-c s") 'window-swap-states)
+(global-set-key (kbd "C-f") 'forward-char)
+(global-set-key (kbd "C-b") 'backward-char)
 
 ;; disable suspend-frame
 (global-set-key (kbd "C-z") nil)
