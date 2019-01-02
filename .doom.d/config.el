@@ -132,6 +132,7 @@
         alchemist-iex-program-name "~/.asdf/shims/iex"
         alchemist-execute-command "~/.asdf/shims/elixir"
         alchemist-compile-command "~/.asdf/shims/elixirc")
+  (set-popup-rule! "\\*Alchemist-IEx\\*" :ignore t)
   :config
   (add-hook 'elixir-mode-hook
             (lambda () (add-hook 'before-save-hook 'elixir-format nil t)))
