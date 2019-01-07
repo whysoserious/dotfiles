@@ -40,10 +40,18 @@
 
 (def-package! yasnippet
   :config
-  (yas-global-mode 1))
+  (yas-global-mode 1)
+  (setq yas-minor-mode-map
+        (let ((map (make-sparse-keymap)))
+          (define-key map [(tab)]     yas-maybe-expand)
+          (define-key map (kbd "TAB") yas-maybe-expand)
+          (define-key map (kbd "C-c C-y C-s") 'yas-insert-snippet)
+          (define-key map (kbd "C-c C-y C-n") 'yas-new-snippet)
+          (define-key map (kbd "C-c C-y C-v") 'yas-visit-snippet-file)
+          map)))
 
-(def-package! elixir-yasnippets
-  :after
+  (def-package! elixir-yasnippets
+    :after
   yasnippet)
 
 (def-package! window-numbering
