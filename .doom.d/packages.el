@@ -9,10 +9,15 @@
 (packages!
   ag
   elixir-yasnippets
-  lsp-mode
   persistent-scratch
   super-save
   window-numbering)
+
+(packages!
+ company-lsp
+ dap-mode
+ lsp-mode
+ lsp-ui)
 
 (package! persp-mode :disable t)
 ; (package! flycheck-credo :disable t)
