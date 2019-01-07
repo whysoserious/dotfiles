@@ -1,1 +1,1 @@
-Logger.debug(fn -> "$1: #{inspect($2, pretty: true)}" end)$0
+Logger.warn(fn -> "$1: #{inspect($2, pretty: true)}" end)$0
