@@ -26,8 +26,8 @@ tooltips
 * CANCELLED regexp builder
 M-x re-builder
 * TODO Yasnippet
-** Copy them from prelude
-** Fix shortcuts
+** DONE Copy them from prelude
+** TODO Fix shortcuts
 * CANCELLED Dired+
 wdired C-x C-q
 * DONE Not disappearing buffers
@@ -42,6 +42,7 @@ elixir logs
 * CANCELLED C-x b remove cursive from filenames
 * TODO Mail in Emacs
 notmuch vs mu4e
-* TODO Text scale adjust
+* DONE Text scale adjust
 * TODO delete-selection-mode does not work
 * DONE Push config to the repo
+* TODO Ranger
