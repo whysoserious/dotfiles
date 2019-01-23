@@ -19,5 +19,6 @@
  lsp-mode
  lsp-ui)
 
+(package! flycheck-credo :disable t)
+(package! magit-gitflow :disable t)
 (package! persp-mode :disable t)
-; (package! flycheck-credo :disable t)
