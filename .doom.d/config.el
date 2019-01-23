@@ -5,6 +5,7 @@
 (global-set-key (kbd "C-c s") 'window-swap-states)
 (global-set-key (kbd "C-f") 'forward-char)
 (global-set-key (kbd "C-b") 'backward-char)
+(global-set-key (kbd "M-w") 'kill-ring-save)
 
 ;; disable suspend-frame
 (global-set-key (kbd "C-z") nil)
