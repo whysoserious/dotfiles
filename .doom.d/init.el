@@ -31,12 +31,6 @@
 (add-hook 'kill-buffer-query-functions
           (lambda () (not (member (buffer-name) '("*scratch*" "scratch.el")))))
 
-;; Set font
-;;(setq
-;; doom-font (font-spec :family "Pragmata Pro Mono" :size 28))
-;;14
-;; "-fsdf-Pragmata Pro Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-"
-;;
 
 ;;
 (doom! :feature
