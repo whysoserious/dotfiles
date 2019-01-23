@@ -35,6 +35,9 @@
 (after! smerge
   (setq smerge-command-prefix (kbd "C-c ;")))
 
+(after! dired
+  (setq dired-dwim-target t))
+
 (def-package! magit
   :bind
   ("C-x g" . magit))
